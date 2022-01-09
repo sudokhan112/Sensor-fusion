@@ -30,7 +30,9 @@ With increasing number of sensors, the possibility of finding a faulty sensor al
  The goal is to observe how the fusion algorithm handles the faulty evidence from right camera. Right camera is showing higher accuracy of Pigweed for time steps 20 - 80 (where it should be high accuracy for Ragweed from ground truth) and for time steps 100 - 150 showing higher accuracy for Ragweed (where it should be Pigweed). After time step fusion, unstable outputs are reduced (smoother curve) but right camera still showing wrong output. After space fusion, the faulty evidence from right camera is compensated with lower weights. Final output shows steady and accurate weed classification depicting ground truth values. 
  
 **[Link to PhD thesis defense](https://www.youtube.com/watch?v=IX1noD8NZBY)**
-**[Link to Thesis pdf] (https://github.com/sudokhan112/Sensor-fusion/blob/main/Purdue_University_Thesis_PhD_Nazmuzzaman.pdf)**
+
+
+**[Link to Thesis pdf](https://github.com/sudokhan112/Sensor-fusion/blob/main/Purdue_University_Thesis_PhD_Nazmuzzaman.pdf)**
 
 ### To Learn more about Space and Time domain fusion from our published work:
 
